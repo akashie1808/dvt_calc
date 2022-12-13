@@ -1,0 +1,11 @@
+.calc{
+  position: absolute;
+  top: 70px;
+  left: 290px;
+}
+
+.d_calc{
+  position: relative;
+  top: 0px;
+  left: -5px;
+}

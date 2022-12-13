@@ -1,0 +1,74 @@
+img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+output{
+    font-size: 40px;
+    text-align: center;
+}
+
+input{
+    font-size: 25px;
+    text-align: center;
+}
+
+.func{
+    position: fixed;
+    top: 8%;
+    left: 30%;
+}
+
+.distance{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    z-index: 10;
+}
+
+.time{
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    z-index: 10;
+}
+
+.velocity{
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    z-index: 10;
+}
+
+.calc{
+    position: absolute;
+    top: 420px;
+    left:-10px;
+}
+
+.reset{
+    position: absolute;
+    top: 420px;
+    left: 300px;
+}
+
+
+.up{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.left{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+
+.right{
+    position: absolute;
+    top: 230px;
+    left: 250px;
+}

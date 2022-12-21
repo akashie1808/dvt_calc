@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="t_calc.css" rel="stylesheet" type="text/css">
+        <script>
+
+            function t_calc(){
+
+                var d, v,t,ans;
+                d = distance.value;
+                v = velocity.value;
+                t = d / v;
+                if(d%v == 0){
+                    time.value = t;
+                }
+                else if(isNaN(t)){
+                    time.value = "error";
+                }
+                else{
+                    ans = t.toFixed(2)
+                    time.value = ans;
+                }
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <a href="index.html" ><img src="もどるボタン.png" width="100px" height="100px"></a>
+        <div class="func">
+            <img src="みはじ背景.png" width="400px" height="400px">
+            <form>
+                <div class="distance">
+                    <p><input type="text" id="distance" size="3" placeholder="　み　"></p><br>
+                </div>
+
+                <div class="velocity">
+                    <p><input type="text" id="velocity" size="3" placeholder="　は　"></p><br>
+                </div>
+
+                <div class="time">
+                    <p><output id="time"></output></p><br>
+                </div>
+                
+                <div class="calc">
+                    <input type="button" value="計算する" onclick="t_calc()"> 
+                </div>
+
+                <div class="reset">
+                    <input type="reset" value="クリア">
+                </div>
+
+            </form>
+        </div>
+    </body>
+
+</html>
